@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+
+}
+.second_box {
+    width: 250px;
+    height: 170px;
+    /* padding-right: 5px; */
+}
+.box_circle {
+    width: 50px;
+    height: 50px;
+    background-color: #b68350;
+    border-radius: 50px;
+    margin-top: 40px;
+}
+.box_circle2 {
+    width: 50px;
+    height: 50px;
+    background-color:#025457;
+    border-radius: 50px;
+    margin-top: 40px;
+}
+.box_circle3 {
+    width: 50px;
+    height: 50px;
+    background-color: #02555B;
+    border-radius: 50px;
+    margin-top: 40px;
+}
+.class_for_image {
+    width: 45px;
+    height: 45px;
+   position: absolute;
+    margin-left: -20px;
+}
+.box_for_image_with_circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 190px;
+}
+.main_text {
+    font-family: sans-serif;
+    color: aliceblue;
+    margin-top: 30px;
+    margin-right: 300px;
+}
+.pre_title {
+    margin-top: 20px;
+    width: 190px;
+    height: 80px;
+    font-family: sans-serif;
+    color: aliceblue;
+    font-size: 13px;
+}
+.box_for_button:hover {
+    background: rgb(239, 248, 4);
+    color: rgb(245, 229, 5);
+    transition: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.box_for_button {
+    border-radius: 15px;
+    display: flex;
+    margin-top: 50px;
+    width: 100px;
+    height: 30px;
+    background-color: aliceblue;
+}
+
+.clikck_learnmore {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-decoration: none;
+    margin-left: 15px;
+}
+.second_box {
+    border-radius: 8px;
+    padding-left: 30px;
+    width: 280px;
+    height: 360px;
+    background-color: #E18425;
+}
+.second_box2 {
+    border-radius: 8px;
+    padding-left: 30px;
+    width: 280px;
+    height: 360px;
+    background-color: #016972;
+}
+.second_box3 {
+    border-radius: 8px;
+    padding-left: 30px;
+    width: 280px;
+    height: 360px;
+    background-color: #00403F;
+}
+.main_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+}

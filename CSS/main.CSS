@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:ital,wght@0,200;0,300;0,400;0,600;0,700;1,400;1,500;1,600&family=Nunito+Sans:wght@300;400;700&family=Open+Sans:wght@500;600;700&family=Poppins:wght@300;400;600;700&family=Roboto:ital,wght@0,400;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* ******** header part ************ */
+
+.list_nav {
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EFEFEF;
+}
+
+.lists {
+    list-style: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    padding-top: 17px;
+    padding-bottom: 16px;
+    color: #333333;
+}
+.linlks_wor:hover {
+    color: red;
+    text-decoration: underline;
+    font-size: 14px;
+}
+.linlks_wor {
+    text-decoration: none;
+}
+.navbar_box_ {
+    width: 100%;
+    height: 41px;
+}
